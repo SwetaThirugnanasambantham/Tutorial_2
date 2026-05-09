@@ -105,13 +105,3 @@ CREATE TABLE books (
 );
 ```
 
-## Differences from Tutorial 2
-
-| Aspect | Tutorial 2 (Attendance) | This project (Library) |
-|--------|------------------------|------------------------|
-| Domain | Student attendance | Book collection |
-| Database | MongoDB + Mongoose | SQLite (better-sqlite3) |
-| Records | Students / attendance | Books |
-| Statuses | present / absent / late | available / checked_out / reserved |
-| Extra features | — | Search box, genre filter, add-book modal |
-| DB server | MongoDB must run separately | None – file-based |
